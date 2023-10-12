@@ -1,10 +1,18 @@
 #doboz{
+    position: absolute;
+    display: flex;
+    flex-direction: column-reverse;
     width: 50%;
-    height: 10rem;
-    margin: auto;
+    height: 5rem;
     background-color: black;
     color: white;
     overflow-y: scroll;
     padding: 1rem;
     scroll-padding: 10px;
+    bottom: 1rem;  left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    line-height: 1.5;
+    justify-items: center;
 }
