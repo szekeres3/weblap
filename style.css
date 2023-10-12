@@ -6,4 +6,5 @@
     color: white;
     overflow-y: scroll;
     padding: 1rem;
+    scroll-padding: 10px;
 }
